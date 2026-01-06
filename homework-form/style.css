@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+fieldset {
+  max-width: 250px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+input ::placeholder,
+textarea ::placeholder {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.name {
+  margin: 6px 0;
+}
+
+.lable-name {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+}
+
+.button-text {
+  font-size: 12px;
+}
+
+input {
+  border-color: #000000;
+  border-radius: 4px;
+  border-width: 1px;
+  height: 20px;
+}
+
+.messeg {
+  resize: vertical;
+  max-height: 150px;
+}
